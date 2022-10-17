@@ -1,0 +1,69 @@
+:root {
+    --color1: #1f2937;
+    --color2: #f9faf8;
+    --color3: #e5e7eb;
+    --color4: #3882f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer, .hero {
+    background-color: var(--color1);
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--color2);
+}
+
+.hero-text, .menu-link {
+    font-size: 18px;
+    color: var(--color3);
+}
+
+.hero-img {
+    width: 400px;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--color2);
+}
+
+.button, .action-square {
+    background-color: var(--color4);
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--color1);
+}
+
+img {
+    width: 300px;
+}
+
+.quote {
+    background-color: var(--color3);
+}
+
+q {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: var(--color1);
+}
