@@ -67,3 +67,7 @@ q {
     font-style: italic;
     color: var(--color1);
 }
+
+.container {
+    display: flex;
+}
