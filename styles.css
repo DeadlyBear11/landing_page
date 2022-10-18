@@ -38,6 +38,7 @@ header, footer, .hero {
 
 .hero-img {
     width: 400px;
+    height: 200px;
 }
 
 .logo {
@@ -54,12 +55,14 @@ header, footer, .hero {
     font-weight: bolder;
     color: var(--color1);
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0 50px 0;
 }
 
-img {
-    width: 300px;
-    height: 175px;
+.info-img {
+    width: 245px;
+    height: 135px;
+    border: 2px solid var(--color4);
+    border-radius: 5px;
 }
 
 .quote {
@@ -105,8 +108,9 @@ nav.container {
 
 .pictures {
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .picture {
@@ -116,4 +120,14 @@ nav.container {
 .subtext {
     text-align: center;
     padding: 20px 10px 100px 10px;
+}
+
+.quote {
+    padding: 100px 300px 100px 300px;
+}
+
+.author {
+    text-align: right;
+    padding-right: 60px;
+    font-weight: 800;
 }
