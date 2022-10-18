@@ -53,10 +53,13 @@ header, footer, .hero {
     font-size: 36px;
     font-weight: bolder;
     color: var(--color1);
+    text-align: center;
+    padding: 50px 0;
 }
 
 img {
     width: 300px;
+    height: 175px;
 }
 
 .quote {
@@ -98,4 +101,19 @@ nav.container {
     padding: 5px 15px;
     border-style: none;
     font-size: 16px;
+}
+
+.pictures {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.picture {
+    flex: 0;
+}
+
+.subtext {
+    text-align: center;
+    padding: 20px 10px 100px 10px;
 }
