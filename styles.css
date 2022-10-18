@@ -130,4 +130,28 @@ nav.container {
     text-align: right;
     padding-right: 60px;
     font-weight: 800;
+    color: var(--color1);
+}
+
+.action-square {
+    margin: 100px auto;
+    padding: 40px 100px;
+    width: 600px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-button {
+    border: 2px solid var(--color2);
+}
+
+.action-text {
+    color: var(--color2);
+}
+
+footer {
+    text-align: center;
+    color: var(--color2);
+    padding: 25px;
 }
